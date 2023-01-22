@@ -1,0 +1,99 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+
+\title{CIA1}
+\author{Arvind M}
+\author{21011101067}
+\date{January 2023}
+
+\begin{document}
+
+\maketitle
+
+ \section{Architecture}
+
+ \begin{Architecture}
+There are two types of IoT Architecture, 3-layer IoT architecture and 5-layer IoT architecture.\hfill \break
+
+*3-layer IoT architecture: It comprises three layers.\hfill \break
+
+1.The perception layer is the physical layer, which includes all the smart sensor-based devices that collect the data from the environment.\hfill \break
+
+2.The network layer includes all the wireless and the wired communication technologies, and is responsible for providing connections between the devices and the applications of the IoT ecosystem. The data is then passed on to the application layer.\hfill \break
+
+3.The application layer is accountable for delivering application-specific services to the user. It defines various applications in which IoT can be deployed, like smart homes, cities, and health.\hfill \break
+
+*4-layer IoT architecture:
+
+4.Information is sent directly to the network layer in three-layer architecture. Due to sending information directly to the network layer, the chances of getting threats increase.\hfill \break
+
+*5-layer IoT architecture: The 5-layer architecture is an extension of the three-layer architecture with the addition of two more layers – the processing and business layers. The perception and application layers work in a similar manner as in the 3-layer architecture.\hfill \break
+
+4.The processing layer or middleware layer stores, analyses, and processes large amounts of data that come from the transport layer, utilising many technologies such as databases, cloud computing, and Big Data processing modules.\hfill \break
+
+5.The business layer manages the whole IoT system, including applications, businesses, and user privacy.\hfill \break
+
+\end{Architecture}
+
+\section{IoT Connections}
+  \begin{IoT Connections}
+1.Device to device (D2D): direct contact between two smart objects when they share information instantaneously without intermediaries. For example, industrial robots and sensors are connected to one another directly to coordinate their actions and perform the assembly of components more efficiently. This type of connection is not very common yet, because most devices are not able to handle such processes.\hfill \break
+2.Device to gateway: telecommunications between sensors and gateway nodes. Gateways are more powerful computing devices than sensors. They have two main functions: to consolidate data from sensors and route it to the relevant data system; to analyze data and, if some problems are found, return it back to the device. There are various IoT gateway protocols that may better suit this or that solution depending on the gateway computing capabilities, network capacity and reliability, the frequency of data generation and its quality.\hfill \break
+3.Gateway to data systems: data transmission from a gateway to the appropriate data system. To determine what protocol to use, you should analyze data traffic (frequency of burstiness and congestion, security requirements and how many parallel connections are needed).\hfill \break
+4.Between data systems: information transfer within data centers or clouds. Protocols for this type of connection should be easy to deploy and integrate with existing apps, have high availability, capacity and reliable disaster recovery.
+  \end{IoT Connections} 
+
+\section{IoT Networks}
+  \begin{IoT Networks}
+  1.Wired & Short Range wireless networks\hfill \break
+  2.M2M – 2G, 3G, 4G & 5G networks\hfill \break
+  3.LPWAN – Low Power Wide Area Networks\hfill \break
+  4.SigFox & LoRaWAN\hfill \break
+  5.NB-IOT (Narrow Band IOT)
+  \end{IoT Networks}
+  
+ \section{IoT protocols}
+  \begin{IoT protocols}
+1.Network layer protocols: IoT network protocols connect medium to high power devices over the network. End-to-end data communication within the network is allowed using this protocol. HTTP, LoRaWAN, Bluetooth, Zigbee are a few popular IoT network protocols.\hfill \break
+
+2.IoT data protocols: IoT data protocols connect low power IoT devices. Without any Internet connection, these protocols can provide end-to-end communication with the hardware. Connectivity in IoT data protocols can be done via a wired or cellular network. MQTT, CoAP, AMQP, XMPP, DDS are some popular IoT data protocols.
+
+Most Common Protocols:\hfill \break
+1.AMQP:
+Advanced Message Queuing Protocol, AMQP is an open standard protocol used for more message-oriented middleware.\hfill \break
+2.Bluetooth and BLE:
+Bluetooth is a short-range wireless technology that uses short-wavelength, ultrahigh-frequency radio waves.Bluetooth LE or BLE is a new version optimized for IoT connections.\hfill \break
+3.Cellular:
+Cellular is one of the most widely available and well-known options available for IoT applications, and it is one of the best options for deployments where communications range over longer distances.\hfill \break
+4.CoAP:
+Constrained Application Protocol is designed to work with HTTP-based IoT systems.\hfill \break
+5.DDS:
+Data Distribution Service integrates the components of a system together, providing low-latency data connectivity, extreme reliability and a scalable architecture that business and mission-critical IoT applications need.\hfill \break
+6.LoRa and LoRaWAN:
+LoRa, for long range, is a noncellular wireless technology that offers long-range communication capabilities.\hfill \break
+7.LWM2M:Lightweight M2M is a device management protocol designed for sensor networks and the demands of an M2M environment.\hfill \break
+8.MQTT:Message Queuing Telemetry Transport is a simple messaging protocol works with constrained devices and enables communication between multiple devices.\hfill \break
+9.Wi-Fi:
+Wireless fidelity offers fast data transfer and is capable of processing large amounts of data.\hfill \break
+10.XMPP:
+XMPP supports the real-time exchange of structured but extensible data between multiple entities on a network, and it's most often used for consumer-oriented IoT deployments.\hfill \break
+11.Zigbee
+Zigbee is one of the most popular mesh protocols in IoT environments.\hfill \break
+12.Z-Wave
+Z-Wave is a wireless mesh network communication protocol built on low-power radio frequency technology.
+  \end{IoT protocols}
+
+\documentclass{Table}
+\begin{tabular}{ |p{3cm}|p{3cm}| }
+\hline
+Pros & Cons\\
+\hline
+Easy Access & Complexity \\
+Eases Communication & Privacy or Security \\
+Increased Productivity & Lesser Employment \\
+Business Benefits & Compatibility \\
+
+\hline
+\end{tabular}
+  
+\end{document}
